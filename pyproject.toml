@@ -4,3 +4,11 @@ version = "0.1.0"
 
 [build-system]
 requires = ["setuptools"]
+
+dependencies = [
+    "pytest",
+    "numpy",
+    "pandas",
+    "pytest-mpl",
+    "pytest-regtest",
+]
